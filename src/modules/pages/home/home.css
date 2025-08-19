@@ -1,0 +1,29 @@
+.first_heading{
+   font-size: 30px;
+   margin-bottom:20px;
+   font-weight:700;
+}
+
+.second_heading{
+    font-size: 140px;
+    line-height: 0.8;
+    font-weight:700;
+    margin-bottom:24px;
+
+}
+.car-image{
+    
+    width: 500px;
+}
+
+.five-number{
+    font-size: 58px;
+    color:#cc0000;
+    font-weight: 700;
+}
+
+.benefits{
+    padding: 32px;
+    font-size: 32px;
+    text-align: center;
+}

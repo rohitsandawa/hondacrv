@@ -1,0 +1,19 @@
+import { LightningElement, api } from 'lwc';
+
+export default class ColorSelection extends LightningElement{
+  @api color
+
+  //using dynamic css
+  get colorClassList(){
+    return `slds-radio_label color_circle ${this.color.value}`;
+
+
+  }
+
+  selectionHandler(evvent){
+     this.dispatchEvent (new CustomEvent ("colorselection",{
+        detail : this.color.value
+    }
+     ))
+  }
+}
