@@ -33,13 +33,14 @@ Open the site at [https://hondacrvclone12.netlify.app/]
 
   ## Screenshots
 Below is the screenshot of the Honda CR-V website.
- ** Home Page **
+
+  ** Home Page **
 <img width="1109" height="624" alt="image" src="https://github.com/user-attachments/assets/c0d0b1ea-c1f3-4f5b-8d7c-1b72f3c7d06e" />
 
-** Price and Build Page **
+ ** Build & Price Page **
 <img width="1103" height="632" alt="image" src="https://github.com/user-attachments/assets/f503763e-f29e-47ad-b542-ff8bd5797827" />
 
-** Contact Us Form **
+ ** Contact Us Form **
 <img width="1110" height="633" alt="image" src="https://github.com/user-attachments/assets/8e00f072-17e8-4bf9-8b82-fd51187e51b6" />
 
 
