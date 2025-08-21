@@ -1,12 +1,12 @@
 # Honda CRV Project
 
-The **Honda CR-V Project** is a web-based application developed using Salesforce Lightning Web Components (LWC), designed to showcase and interact with various details of the Honda CR-V model. The app[...]
+The **Honda CR-V Project** is a web-based application developed using Salesforce Lightning Web Components (LWC), designed to showcase and interact with various details of the Honda CR-V model. The application is structured into two main pages:
 
 Home Page – Provides an overview of the Honda CR-V, including high-quality image, presented with a clean and modern user interface.
 
-Build & Price Page – Allows users to explore customization options for the CR-V. Users can select different models and color variations based on their preferences. Once the desired configuration is [...]
+Build & Price Page – Allows users to explore customization options for the CR-V. Users can select different models and color variations based on their preferences. Once the desired configuration is selected, the user can easily submit their choices through a form.
 
-To handle form submissions, the application integrates with Salesforce using a Web-to-Lead form. This ensures that all user inputs, such as selected model and color, are directly captured in Salesforc[...]
+To handle form submissions, the application integrates with Salesforce using a Web-to-Lead form. This ensures that all user inputs, such as selected model and color, are directly captured in Salesforce as leads for further follow-up or marketing purposes.
 
 The project emphasizes user-friendly navigation, responsive design, and modern styling while leveraging Salesforce capabilities for seamless data capture and management.
 
