@@ -1,65 +1,51 @@
 # Honda CRV Project
 
-The **Honda CRV Project** is a web-based application focused on displaying and interacting with information related to the Honda CRV model. It features a simple and effective structure for presenting car details, images, and styling using modern web technologies.
+The **Honda CR-V Project** is a web-based application developed using Salesforce Lightning Web Components (LWC), designed to showcase and interact with various details of the Honda CR-V model. The application is structured into two main pages:
 
-## Project Setup
+Home Page – Provides an overview of the Honda CR-V, including high-quality image, presented with a clean and modern user interface.
 
-The directory structure is organized as follows (based on typical web projects and inferred repo content):
+Build & Price Page – Allows users to explore customization options for the CR-V. Users can select different models and color variations based on their preferences. Once the desired configuration is selected, the user can easily submit their choices through a form.
 
-```fs
-src/
-  ├── assets/            // Static assets (images, icons, etc.)
-  └── styles/            // CSS stylesheets
-  └── components/        // UI components (if applicable)
-  └── App.js             // Main app logic (if using JS frameworks)
-  └── index.html         // HTML template (if applicable)
-public/
-  └── favicon.ico        // Site favicon
-package.json             // npm packaging configuration (if using Node.js)
-```
+To handle form submissions, the application integrates with Salesforce using a Web-to-Lead form. This ensures that all user inputs, such as selected model and color, are directly captured in Salesforce as leads for further follow-up or marketing purposes.
 
-## Configuration
+The project emphasizes user-friendly navigation, responsive design, and modern styling while leveraging Salesforce capabilities for seamless data capture and management.
 
-Configuration settings (if any) such as environment variables or API keys should be listed here.
+## Running the Project
 
-```env
-// Example .env (if using APIs or external services)
-API_KEY=your_api_key_here
-```
+Open the site at [https://hondacrvclone12.netlify.app/]
 
-## Running the Project in Development Mode
+## How to Use
+1. **Launch the App:**  
+   Visit the Honda CRV Clone website: [https://hondacrvclone12.netlify.app/)
 
-```bash
-yarn install
-yarn start
-```
+2. **Click on Build Your CR-V from navigation bar:**  
+   - On Build & Price page user can Select any CR-Range.
+   - User Can also Select the available color for the Car Model.
+   - User Can see the total price at the Footer.
 
-Open the site at [http://localhost:3000](http://localhost:3000)
+3. **Click On Save and Contact Us button from Footer:**  
+   - After Selecting the Choice of model and Color User click on Save and Contact Us form at the footer.
+   - Fill all the details and Click on SUbmit button.
 
-## Building and Previewing the Site
+4. ** Lead generated in Salesforce **
+   - After Submitting the form a lead will geneated in my salesforce org.
+   - User should receive an email.
 
-```bash
-yarn build
-yarn serve
-```
+  ## Screenshots
+Below is the screenshot of the Honda CR-V website.
+ ** Home Page **
+<img width="1109" height="624" alt="image" src="https://github.com/user-attachments/assets/c0d0b1ea-c1f3-4f5b-8d7c-1b72f3c7d06e" />
 
-Open the site at [http://localhost:5000](http://localhost:5000)
+** Price and Build Page **
+<img width="1103" height="632" alt="image" src="https://github.com/user-attachments/assets/f503763e-f29e-47ad-b542-ff8bd5797827" />
 
-## Features
+** Contact Us Form **
+<img width="1110" height="633" alt="image" src="https://github.com/user-attachments/assets/8e00f072-17e8-4bf9-8b82-fd51187e51b6" />
 
-- Display information about Honda CRV models
-- Show images and styling for a premium car web experience
-- Organized project structure for easy customization
-- Responsive and user-friendly interface
 
-## Screenshots
 
-_Screenshots will be added here later_
 
-## License
 
-This project is licensed under [specify license, e.g., MIT License].
+---
 
-## Contact
 
-For questions or feedback, reach out to [your-email@example.com].
