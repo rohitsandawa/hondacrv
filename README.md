@@ -27,7 +27,7 @@ Open the site at [https://hondacrvclone12.netlify.app/]
    - After Selecting the Choice of model and Color User click on Save and Contact Us form at the footer.
    - Fill all the details and Click on SUbmit button.
 
-4.  **Lead Generation Form:**  
+4. **Lead Generation Form:**  
    - After Submitting the form a lead will geneated in my salesforce org.
    - User should receive an email.
 
@@ -38,7 +38,7 @@ Below is the screenshot of the Honda CR-V website.
 <img width="1109" height="624" alt="image" src="https://github.com/user-attachments/assets/c0d0b1ea-c1f3-4f5b-8d7c-1b72f3c7d06e" />
 
  **BUILD & PRICE PAGE**
-<img width="1103" height="632" alt="image" src="https://github.com/user-attachments/assets/f503763e-f29e-47ad-b542-ff8bd5797827" />
+<img width="1117" height="633" alt="image" src="https://github.com/user-attachments/assets/8ef7dcd1-3a3b-474c-8d7b-77fe87d01cd0" />
 
  **CONTACT US FORM**
 <img width="1110" height="633" alt="image" src="https://github.com/user-attachments/assets/8e00f072-17e8-4bf9-8b82-fd51187e51b6" />
