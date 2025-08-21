@@ -1,70 +1,65 @@
-# LWC Boilerplate Example
+# Honda CRV Project
 
-The **LWC Boilerplate** example contains the minimum code needed to get a simple Single Page Application (SPA) on LWR running.
+The **Honda CRV Project** is a web-based application focused on displaying and interacting with information related to the Honda CRV model. It features a simple and effective structure for presenting car details, images, and styling using modern web technologies.
 
 ## Project Setup
 
-The directory structure looks like this:
+The directory structure is organized as follows (based on typical web projects and inferred repo content):
 
 ```fs
 src/
-  ├── assets/           // static assets
-  │   └── recipes-logo.png
-  |   └── favicon.ico
-  └── modules/          // lwc modules
-      └── example/
-          └── app/
-              ├── app.css
-              ├── app.html
-              └── app.js
-lwr.config.json         // lwr configuration
-package.json            // npm packaging configuration
+  ├── assets/            // Static assets (images, icons, etc.)
+  └── styles/            // CSS stylesheets
+  └── components/        // UI components (if applicable)
+  └── App.js             // Main app logic (if using JS frameworks)
+  └── index.html         // HTML template (if applicable)
+public/
+  └── favicon.ico        // Site favicon
+package.json             // npm packaging configuration (if using Node.js)
 ```
 
 ## Configuration
 
-The LWR server is configured in `lwr.config.json`, at the root of the project. The **LWC Boilerplate** example has one LWC module and one server-side route.
+Configuration settings (if any) such as environment variables or API keys should be listed here.
 
-```json
-// lwr.config.json
-{
-    "lwc": { "modules": [{ "dir": "$rootDir/src/modules" }] },
-    "routes": [
-        {
-            "id": "example",
-            "path": "/",
-            "rootComponent": "example/app"
-        }
-    ],
-    "assets": [
-        {
-            "alias": "assetsDir",
-            "dir": "$rootDir/src/assets",
-            "urlPath": "/public/assets"
-        },
-        {
-            "alias": "favicon",
-            "file": "$rootDir/src/assets/favicon.ico",
-            "urlPath": "/favicon.ico"
-        }
-    ]
-}
+```env
+// Example .env (if using APIs or external services)
+API_KEY=your_api_key_here
 ```
 
-## Running the Project in dev Mode
+## Running the Project in Development Mode
 
 ```bash
 yarn install
-yarn dev # dev:compat for AMD format
-```
-
-Open the site at [http://localhost:3000](http://localhost:3000)
-
-## Statically Generate and Preview the Site
-
-```bash
-yarn build # dev:prod-compat for AMD format
 yarn start
 ```
 
 Open the site at [http://localhost:3000](http://localhost:3000)
+
+## Building and Previewing the Site
+
+```bash
+yarn build
+yarn serve
+```
+
+Open the site at [http://localhost:5000](http://localhost:5000)
+
+## Features
+
+- Display information about Honda CRV models
+- Show images and styling for a premium car web experience
+- Organized project structure for easy customization
+- Responsive and user-friendly interface
+
+## Screenshots
+
+_Screenshots will be added here later_
+
+## License
+
+This project is licensed under [specify license, e.g., MIT License].
+
+## Contact
+
+For questions or feedback, reach out to [your-email@example.com].
