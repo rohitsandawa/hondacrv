@@ -7874,9 +7874,9 @@ lwc@latest:
     "@lwc/types" "8.20.4"
     "@lwc/wire-service" "8.20.4"
 
-lwr@0.18.3:
+lwr@^0.18.3:
   version "0.18.3"
-  resolved "https://registry.npmjs.org/lwr/-/lwr-0.18.3.tgz"
+  resolved "https://registry.yarnpkg.com/lwr/-/lwr-0.18.3.tgz#811a3298b22e3b33af3eae1c473a1cebaa1f8486"
   integrity sha512-JVOQTFcfdHH1j0pj105b6L5JK3JBNlzbhbaIlq38C3ENZ1Z9D5BFqcdH77XDHBmzTOROS3CCezt49KytuKWXfg==
   dependencies:
     "@lwrjs/api" "0.18.3"

@@ -1,0 +1,61 @@
+<template>
+
+<form action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8&orgId=00DgK000006im2H" method="POST">
+
+<input type=hidden name="oid" value="00DgK000006im2H">
+<input type=hidden name="retURL" value="https://hondacrvclone12.netlify.app/">
+
+
+ <div class="slds-form-element">
+            <label class="slds-form-element__label" for="title">Title</label>
+              <div class="slds-form-element__control">
+                  <input type="text" id="title" class="slds-input" name="title"  maxlength="40" size="20" required />
+              </div>
+        </div>
+
+        <div class="slds-form-element">
+             <label class="slds-form-element__label" for="first_name">First Name</label>
+              <div class="slds-form-element__control">
+                  <input type="text" id="first_name" class="slds-input" name="first_name"  maxlength="40" size="20" required  />
+              </div>
+        </div>
+
+        <div class="slds-form-element">
+             <label class="slds-form-element__label" for="last_name">Last Name</label>
+              <div class="slds-form-element__control">
+                  <input type="text" id="last_name" class="slds-input" name="last_name"  maxlength="40" size="20" required />
+              </div>
+        </div>
+
+        <div class="slds-form-element">
+             <label class="slds-form-element__label" for="email">Email</label>
+              <div class="slds-form-element__control">
+                  <input type="text" id="email" class="slds-input" name="email"  maxlength="80" size="20" required />
+              </div>
+        </div>
+
+        <div class="slds-form-element slds-hide">
+             <label class="slds-form-element__label" for="company">Company</label>
+              <div class="slds-form-element__control">
+                  <input type="text" id="company" class="slds-input" name="company" value="Honda CRV" maxlength="40" size="20" required />
+              </div>
+        </div>
+
+        <div class="slds-form-element">
+             <label class="slds-form-element__label" for="city">City</label>
+              <div class="slds-form-element__control">
+                  <input type="text" id="city" class="slds-input" name="city"  maxlength="40" size="20" required  />
+              </div>
+        </div>
+
+         <div class="slds-form-element slds-hide">
+             <label class="slds-form-element__label" for="description">Description</label>
+              <div class="slds-form-element__control">
+                  <textarea name="description" id="description" class="slds-textarea" required >{description}</textarea>
+              </div>
+        </div>
+
+        <input type="submit" name="submit" class="slds-hide">
+</form>
+
+</template>

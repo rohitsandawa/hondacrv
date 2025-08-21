@@ -24,10 +24,10 @@
   </main>
   <template lwc:if={showModal}>
     <components-modal heading="Fill in your details">
-      <h1>Form will come here</h1>
+       <components-lead-form description={description}> </components-lead-form>
       <div slot="footer">
         <button class="slds-button slds-button_neutral" onclick={cancelButtonHandler}> Cancel</button>
-        <button class="slds-button slds-button_destructive"> Submit</button>
+        <button class="slds-button slds-button_destructive" onclick={submitButtonHandler}> Submit</button>
       </div>
     </components-modal>
   </template>
