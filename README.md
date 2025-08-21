@@ -19,7 +19,7 @@ Open the site at [https://hondacrvclone12.netlify.app/]
    Visit the Honda CRV Clone website: [https://hondacrvclone12.netlify.app/)
 
 2. **Click on Build Your CR-V from navigation bar:**  
-   - On Build & Price page user can Select any CR-Range.
+   - On Build & Price page user can Select any CR-V Range.
    - User Can also Select the available color for the Car Model.
    - User Can see the total price at the Footer.
 
@@ -27,7 +27,7 @@ Open the site at [https://hondacrvclone12.netlify.app/]
    - After Selecting the Choice of model and Color User click on Save and Contact Us form at the footer.
    - Fill all the details and Click on SUbmit button.
 
-4. ** Lead generated in Salesforce **
+4.  **Lead Generation Form:**  
    - After Submitting the form a lead will geneated in my salesforce org.
    - User should receive an email.
 
