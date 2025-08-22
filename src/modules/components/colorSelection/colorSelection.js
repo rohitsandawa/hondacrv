@@ -10,7 +10,7 @@ export default class ColorSelection extends LightningElement{
 
   }
 
-  selectionHandler(evvent){
+  selectionHandler(event){
      this.dispatchEvent (new CustomEvent ("colorselection",{
         detail : this.color.value
     }
